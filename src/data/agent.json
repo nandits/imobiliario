@@ -1,0 +1,10 @@
+{
+  "id": "agent-001",
+  "name": "Armando Costa",
+  "email": "mando.nest@gmail.com",
+  "phone": "+351 999 999 999",
+  "whatsapp": "+351 999 999 999",
+  "bio": "Test user",
+  "website": "",
+  "avatar": "/images/agent/avatar.png"
+}

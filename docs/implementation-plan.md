@@ -14,26 +14,28 @@ Goal: A working, public-facing site with a functional admin area.
 
 ### 1. Project Bootstrap
 
-- [ ] Initialize Astro project with TypeScript template
-- [ ] Install Tailwind CSS integration
-- [ ] Install `@astrojs/sitemap` and `@astrojs/tailwind`
-- [ ] Create folder structure (`src/pages`, `src/components`, `src/data`, `src/layouts`, `public/images`)
-- [ ] Commit initial project structure
+- [x] Initialize Astro project with TypeScript template
+- [x] Install Tailwind CSS integration
+- [x] Install `@astrojs/sitemap` and `@astrojs/tailwind`
+- [x] Create folder structure (`src/pages`, `src/components`, `src/data`, `src/layouts`, `public/images`)
+- [x] Commit initial project structure
 
 ### 2. Data & Content Foundation
 
-- [ ] Create `src/data/agent.json` with sample agent data
-- [ ] Create `src/data/properties.json` with 2–3 sample properties
-- [ ] Add sample images to `public/images/properties/` (use placeholders)
-- [ ] Add sample image to `public/images/agent/`
-- [ ] Add a `.gitignore` rule for truly large images if needed
+- [x] Collect real data from user (agent info, 2 properties, image filenames)
+- [x] Create `src/data/agent.json` with real agent data
+- [x] Create `src/data/properties.json` with 2 real properties, including `mainImage` string field on each
+- [x] Add real images to `public/images/agent/` and `public/images/properties/<slug>/`
+- [x] Update `docs/architecture.md` PROPERTY erDiagram to document `mainImage`
+- [x] Add note about future edit-view antenna selector UI in `docs/architecture.md`
 
 ### 3. Public Pages
 
 - [ ] **Layout**: Build `MainLayout.astro` with Header + Footer
-- [ ] **Homepage** (`/`): Hero image, agent intro, 3 most recent properties
-- [ ] **Listings** (`/properties`): Grid or list of all active properties
-- [ ] **Property Detail** (`/properties/[slug]`): Full description, image gallery, price, features, contact button
+- [ ] **Homepage** (`/`): Hero image, agent intro, button "visitar propriedates"
+takes you into /properties
+- [ ] **Listings** (`/properties`): Grid of all properties with a status banner acroos the botton of each listing, mainImage and house titles are a button into /properties/[slug]
+- [ ] **Property Detail** (`/properties/[slug]`): Full description, price and features on top, image gallery
 - [ ] **Contact**: A simple section linking to WhatsApp / email on every page
 
 ### 4. Admin Panel (Minimal)

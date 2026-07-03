@@ -104,6 +104,7 @@ erDiagram
         string location "Neighborhood or City"
         string[] features "Bedrooms, bathrooms, area, etc."
         string[] images "Filenames in /public/images/properties/"
+        string mainImage "Filename in /public/images/properties/ used as cover in listings"
         string status "active | sold | rented"
         string slug "URL-friendly identifier"
         datetime createdAt
@@ -111,6 +112,8 @@ erDiagram
         datetime publishedAt
     }
 ```
+
+**Note:** A future edit-view antenna selector UI will let the agent choose the cover image from the gallery.
 
 ### Agent
 

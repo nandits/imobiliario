@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prop-001",
+    "title": "house 1",
+    "description": "house 1",
+    "price": "999",
+    "location": "place1",
+    "features": [],
+    "images": [
+      "/images/properties/house1/avi-werde-hHz4yrvxwlA-unsplash.jpg",
+      "/images/properties/house1/salman-saqib-z6UAWpQAhXs-unsplash.jpg"
+    ],
+    "mainImage": "/images/properties/house1/avi-werde-hHz4yrvxwlA-unsplash.jpg",
+    "status": "À venda",
+    "slug": "house-1",
+    "createdAt": "2026-07-03T00:00:00.000Z",
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "publishedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "prop-002",
+    "title": "house 2",
+    "description": "house 2",
+    "price": "998",
+    "location": "place2",
+    "features": [],
+    "images": [
+      "/images/properties/house2/lycs-architecture-kUdbEEMcRwE-unsplash.jpg",
+      "/images/properties/house2/webaliser-_TPTXZd9mOo-unsplash.jpg"
+    ],
+    "mainImage": "/images/properties/house2/lycs-architecture-kUdbEEMcRwE-unsplash.jpg",
+    "status": "À venda",
+    "slug": "house-2",
+    "createdAt": "2026-07-03T00:00:00.000Z",
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "publishedAt": "2026-07-03T00:00:00.000Z"
+  }
+]
