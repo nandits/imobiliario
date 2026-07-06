@@ -1,11 +1,11 @@
 {
   "id": "agent-001",
-  "name": "Samuel Sedrez",
-  "email": "samuel.sedrez@examplo.com",
+  "name": "Mando Noplit",
+  "email": "mando.nest@example.com",
   "phone": "999 999 999",
   "whatsapp": "999 999 999",
-  "bio": "Corretor de Imóveis",
+  "bio": "test user",
   "website": "",
-  "avatar": "/images/agent/ss_profile_pic.webp",
-  "heroImage": ""
+  "avatar": "/images/agent/ACImob1.webp",
+  "heroImage": "/images/hero/images.webp"
 }
