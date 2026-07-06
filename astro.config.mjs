@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://nandits.github.io/imobiliario',
-  base: '/imobiliario',
+  base: '/imobiliario/',
   integrations: [tailwind(), sitemap()],
 });

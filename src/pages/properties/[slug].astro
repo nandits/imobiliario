@@ -94,7 +94,7 @@ const { property } = Astro.props;
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
             {property.images.map((image) => (
               <img
-                src={image}
+                src={`${import.meta.env.BASE_URL}${image.replace(/^\/+/, "")}`}
                 alt={`${property.title} — ${property.location}`}
                 class="w-full max-h-[80vh] object-contain rounded-lg shadow-sm"
                 loading="lazy"

@@ -9,11 +9,14 @@ interface Props {
 
 const { title, slug, mainImage, status, price } = Astro.props;
 
-const mapPath = (path: string) => (path.startsWith("/") ? path : `/${path}`);
+const mapPath = (path: string) => {
+  const clean = path.replace(/^\/+/, "");
+  return `${import.meta.env.BASE_URL}${clean}`;
+};
 ---
 
 <a
-  href={`/properties/${slug}`}
+  href={`${import.meta.env.BASE_URL}properties/${slug}`}
   class="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:scale-[1.02] overflow-hidden"
 >
   <div class="relative overflow-hidden">

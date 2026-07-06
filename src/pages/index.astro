@@ -10,7 +10,7 @@ const heroImage = agent.heroImage || properties[0]?.mainImage || "";
 <MainLayout title="Início" description={agent.bio}>
   <section class="relative min-h-[70vh] flex items-center justify-center">
     <img
-      src={heroImage}
+      src={`${import.meta.env.BASE_URL}${heroImage.replace(/^\/+/, "")}`}
       alt={`${agent.name} — imóvel em destaque`}
       class="absolute inset-0 w-full h-full object-cover"
     />

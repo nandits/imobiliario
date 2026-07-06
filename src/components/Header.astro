@@ -2,8 +2,8 @@
 import agent from "../data/agent.json";
 
 const links = [
-  { href: "/", label: "Início" },
-  { href: "/agent", label: "Sobre Mim" },
+  { href: import.meta.env.BASE_URL, label: "Início" },
+  { href: `${import.meta.env.BASE_URL}agent`, label: "Sobre Mim" },
 ];
 ---
 
