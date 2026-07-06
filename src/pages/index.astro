@@ -1,21 +1,30 @@
 ﻿---
-import MainLayout from '../layouts/MainLayout.astro';
-import agent from '../data/agent.json';
-import properties from '../data/properties.json';
-import PropertyCard from '../components/PropertyCard.astro';
+import MainLayout from "../layouts/MainLayout.astro";
+import agent from "../data/agent.json";
+import properties from "../data/properties.json";
+import PropertyCard from "../components/PropertyCard.astro";
+
+const heroImage = agent.heroImage || properties[0]?.mainImage || "";
 ---
 
 <MainLayout title="Início" description={agent.bio}>
   <section class="relative min-h-[70vh] flex items-center justify-center">
     <img
-      src={properties[0]?.mainImage || ''}
-      alt=""
+      src={heroImage}
+      alt={`${agent.name} — imóvel em destaque`}
       class="absolute inset-0 w-full h-full object-cover"
     />
-    <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent" />
-    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center text-white pt-16">
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent"
+    >
+    </div>
+    <div
+      class="relative z-10 max-w-4xl mx-auto px-4 text-center text-white pt-16"
+    >
       <h1 class="text-4xl md:text-6xl font-bold mb-4">{agent.name}</h1>
-      <p class="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">{agent.bio}</p>
+      <p class="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        {agent.bio}
+      </p>
       <div class="flex flex-wrap items-center justify-center gap-4">
         <a
           href={`https://wa.me/${agent.whatsapp}?text=Olá,%20estou%20interessado%20num%20imóvel.`}
@@ -32,15 +41,17 @@ import PropertyCard from '../components/PropertyCard.astro';
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="text-3xl font-bold text-primary mb-8">Os Nossos Imóveis</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {properties.map((property) => (
-        <PropertyCard
-          title={property.title}
-          slug={property.slug}
-          mainImage={property.mainImage}
-          status={property.status}
-          price={property.price}
-        />
-      ))}
+      {
+        properties.map((property) => (
+          <PropertyCard
+            title={property.title}
+            slug={property.slug}
+            mainImage={property.mainImage}
+            status={property.status}
+            price={property.price}
+          />
+        ))
+      }
     </div>
   </section>
 </MainLayout>

@@ -1,5 +1,4 @@
 node_modules
-dist
 .astro
 *.log
 .env
@@ -8,4 +7,5 @@ dist
 
 # Project exclusions
 admin/
-docs/plans/
+docs/
+plans/

@@ -9,23 +9,30 @@ interface Props {
 
 const { title, slug, mainImage, status, price } = Astro.props;
 
-const mapPath = (path: string) => path.startsWith('/') ? path : `/${path}`;
+const mapPath = (path: string) => (path.startsWith("/") ? path : `/${path}`);
 ---
 
-<a href={`/properties/${slug}`} class="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:scale-[1.02] overflow-hidden">
-  <div class="relative aspect-[4/3] overflow-hidden">
+<a
+  href={`/properties/${slug}`}
+  class="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:scale-[1.02] overflow-hidden"
+>
+  <div class="relative overflow-hidden">
     <img
       src={mapPath(mainImage)}
       alt={title}
-      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      class="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-105"
       loading="lazy"
     />
     <span class="absolute bottom-3 left-0 right-0 text-center">
-      <span class="inline-block bg-accent text-white text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full">
+      <span
+        class="inline-block bg-accent text-white text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full"
+      >
         {status}
       </span>
     </span>
-    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4 pt-8">
+    <div
+      class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4 pt-8"
+    >
       <p class="text-white font-semibold text-lg truncate">{title}</p>
       <p class="text-white/90 text-sm font-medium">{price}</p>
     </div>

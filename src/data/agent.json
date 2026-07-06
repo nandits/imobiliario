@@ -1,10 +1,11 @@
 {
   "id": "agent-001",
-  "name": "Armando Costa",
-  "email": "mando.nest@gmail.com",
-  "phone": "+351 999 999 999",
-  "whatsapp": "+351 999 999 999",
-  "bio": "Test user",
+  "name": "Samuel Sedrez",
+  "email": "samuel.sedrez@examplo.com",
+  "phone": "999 999 999",
+  "whatsapp": "999 999 999",
+  "bio": "Corretor de Imóveis",
   "website": "",
-  "avatar": "/images/agent/avatar.png"
+  "avatar": "/images/agent/ss_profile_pic.webp",
+  "heroImage": ""
 }
