@@ -29,14 +29,14 @@ const { property } = Astro.props;
           <p class="text-gray-600 mb-8">
             O imóvel que procura não existe ou foi removido.
           </p>
-          <a href="/" class="text-accent font-semibold hover:underline">
+          <a href={import.meta.env.BASE_URL} class="text-accent font-semibold hover:underline">
             ← Início
           </a>
         </div>
       ) : (
         <>
           <a
-            href="/"
+            href={import.meta.env.BASE_URL}
             class="inline-block text-accent font-semibold hover:underline mb-6"
           >
             ← Início
