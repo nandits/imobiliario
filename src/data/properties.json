@@ -2,7 +2,7 @@
   {
     "id": "prop-001",
     "title": "house 1",
-    "description": "house 1",
+    "description": "test house 1",
     "price": "999",
     "location": "place1",
     "features": [],
@@ -14,7 +14,7 @@
     "status": "À venda",
     "slug": "house-1",
     "createdAt": "2026-07-03T00:00:00.000Z",
-    "updatedAt": "2026-07-08T23:00:32.323Z",
+    "updatedAt": "2026-07-08T23:14:52.336Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
   },
   {
