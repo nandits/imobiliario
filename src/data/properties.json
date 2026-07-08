@@ -7,14 +7,14 @@
     "location": "place1",
     "features": [],
     "images": [
-      "/images/properties/house1/avi-werde-hHz4yrvxwlA-unsplash.jpg",
-      "/images/properties/house1/salman-saqib-z6UAWpQAhXs-unsplash.jpg"
+      "/images/properties/house-1/avi-werde-hHz4yrvxwlA-unsplash.webp",
+      "/images/properties/house-1/salman-saqib-z6UAWpQAhXs-unsplash.webp"
     ],
-    "mainImage": "/images/properties/house1/avi-werde-hHz4yrvxwlA-unsplash.jpg",
+    "mainImage": "/images/properties/house-1/avi-werde-hHz4yrvxwlA-unsplash.webp",
     "status": "À venda",
     "slug": "house-1",
     "createdAt": "2026-07-03T00:00:00.000Z",
-    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "updatedAt": "2026-07-08T23:00:32.323Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
   },
   {
