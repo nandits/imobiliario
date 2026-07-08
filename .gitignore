@@ -11,6 +11,8 @@ win-unpacked/
 
 # Then explicitly include the site files
 !/.gitignore
+!/.github/
+!/.github/**
 !/package.json
 !/package-lock.json
 !/astro.config.mjs
