@@ -25,14 +25,14 @@
     "location": "place2",
     "features": [],
     "images": [
-      "/images/properties/house2/lycs-architecture-kUdbEEMcRwE-unsplash.jpg",
-      "/images/properties/house2/webaliser-_TPTXZd9mOo-unsplash.jpg"
+      "/images/properties/house-2/lycs-architecture-kUdbEEMcRwE-unsplash.webp",
+      "/images/properties/house-2/webaliser-_TPTXZd9mOo-unsplash.webp"
     ],
-    "mainImage": "/images/properties/house2/lycs-architecture-kUdbEEMcRwE-unsplash.jpg",
+    "mainImage": "/images/properties/house-2/webaliser-_TPTXZd9mOo-unsplash.webp",
     "status": "À venda",
     "slug": "house-2",
     "createdAt": "2026-07-03T00:00:00.000Z",
-    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "updatedAt": "2026-07-08T23:02:47.710Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
   },
   {
