@@ -1,12 +1,22 @@
-node_modules
-dist/
-.astro
-*.log
-.env
-.env.*
-.DS_Store
+# Ignore everything
+*
 
-# Project exclusions
-admin/
-docs/
-plans/
+# Binary/build artifacts
+*.exe
+*.app
+*.dmg
+*.pak
+dist/
+win-unpacked/
+
+# Then explicitly include the site files
+!/.gitignore
+!/package.json
+!/package-lock.json
+!/astro.config.mjs
+!/tailwind.config.mjs
+!/tsconfig.json
+!/src/
+!/src/**
+!/public/
+!/public/**
