@@ -38,7 +38,7 @@
   {
     "id": "prop-1783548105300-dvuxg",
     "title": "house 3",
-    "description": "house3",
+    "description": "test house 3",
     "price": "6846846",
     "location": "place 3",
     "features": [
@@ -52,7 +52,7 @@
     "mainImage": "/images/properties/house-3/webaliser-_TPTXZd9mOo-unsplash.webp",
     "slug": "house-3",
     "createdAt": "2026-07-08T22:01:45.300Z",
-    "updatedAt": "2026-07-08T22:02:42.985Z",
+    "updatedAt": "2026-07-08T23:36:12.553Z",
     "publishedAt": "2026-07-08T22:01:45.300Z"
   }
 ]
