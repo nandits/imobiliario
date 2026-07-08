@@ -34,25 +34,5 @@
     "createdAt": "2026-07-03T00:00:00.000Z",
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "prop-1783353020538-39jdl",
-    "title": "house3",
-    "description": "house3",
-    "price": "68464",
-    "location": "place 3",
-    "features": [
-      "planta"
-    ],
-    "status": "À venda",
-    "images": [
-      "/images/properties/house3/images.webp",
-      "/images/properties/house3/ACImob1.webp"
-    ],
-    "mainImage": "/images/properties/house3/images.webp",
-    "slug": "house3",
-    "createdAt": "2026-07-06T15:50:20.538Z",
-    "updatedAt": "2026-07-06T16:00:25.310Z",
-    "publishedAt": "2026-07-06T15:50:20.538Z"
   }
 ]
