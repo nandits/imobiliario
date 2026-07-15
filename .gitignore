@@ -22,3 +22,6 @@ win-unpacked/
 !/src/**
 !/public/
 !/public/**
+
+# Bundled MinGit (downloaded by scripts/fetch-git.ps1)
+admin/resources/git/
