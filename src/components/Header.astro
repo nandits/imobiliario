@@ -5,6 +5,11 @@ const links = [
   { href: import.meta.env.BASE_URL, label: "Início" },
   { href: `${import.meta.env.BASE_URL}agent`, label: "Sobre Mim" },
 ];
+
+const displayName = agent.shortName || agent.name;
+const brand = agent.creci
+  ? `${displayName} | CRECI:${agent.creci}`
+  : displayName;
 ---
 
 <header
@@ -13,7 +18,7 @@ const links = [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <a href="/" class="text-xl font-bold text-primary">
-        {agent.name.split(" ")[0]}
+        {brand}
       </a>
 
       <nav class="hidden md:flex items-center gap-6">

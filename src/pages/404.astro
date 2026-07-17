@@ -1,0 +1,22 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Página não encontrada">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4">
+        Imóvel não encontrado
+      </h1>
+      <p class="text-xl text-gray-600 mb-8">
+        A página que procura não existe ou foi removida.
+      </p>
+      <a
+        href={import.meta.env.BASE_URL}
+        class="inline-block text-accent font-semibold hover:underline"
+      >
+        ← Início
+      </a>
+    </div>
+  </section>
+</MainLayout>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nandits.github.io/imobiliario/sitemap-index.xml

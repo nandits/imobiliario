@@ -1,9 +1,11 @@
 {
   "id": "agent-001",
   "name": "Samuel Sedrez",
+  "shortName": "Samuel",
   "email": "amarosedrez@gmail.com",
   "phone": "+5547992905609",
   "whatsapp": "+5547992905609",
+  "creci": "50702F",
   "bio": "CRECI 50702F",
   "website": "",
   "avatar": "/images/agent/ss_profile_pic.webp",
