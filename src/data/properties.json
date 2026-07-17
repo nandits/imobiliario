@@ -34,23 +34,5 @@
     "createdAt": "2026-07-03T00:00:00.000Z",
     "updatedAt": "2026-07-08T23:02:47.710Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "prop-1783548105300-dvuxg",
-    "title": "house 3",
-    "description": "test house 3",
-    "price": "6846846",
-    "location": "place 3",
-    "features": [],
-    "status": "À venda",
-    "images": [
-      "/images/properties/house-3/webaliser-_TPTXZd9mOo-unsplash.webp",
-      "/images/properties/house-3/salman-saqib-z6UAWpQAhXs-unsplash.webp"
-    ],
-    "mainImage": "/images/properties/house-3/salman-saqib-z6UAWpQAhXs-unsplash.webp",
-    "slug": "house-3",
-    "createdAt": "2026-07-08T22:01:45.300Z",
-    "updatedAt": "2026-07-15T21:30:15.713Z",
-    "publishedAt": "2026-07-08T22:01:45.300Z"
   }
 ]
