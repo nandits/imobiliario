@@ -26,13 +26,16 @@
     "features": [],
     "images": [
       "/images/properties/house-2/lycs-architecture-kUdbEEMcRwE-unsplash.webp",
-      "/images/properties/house-2/webaliser-_TPTXZd9mOo-unsplash.webp"
+      "/images/properties/house-2/webaliser-_TPTXZd9mOo-unsplash.webp",
+      "/images/properties/house-2/gGLnRUt-full-black-wallpaper.webp",
+      "/images/properties/house-2/gKBGLJm-eclipse-wallpaper.webp",
+      "/images/properties/house-2/wallpaperflare.com_wallpaper.webp"
     ],
     "mainImage": "/images/properties/house-2/webaliser-_TPTXZd9mOo-unsplash.webp",
     "status": "À venda",
     "slug": "house-2",
     "createdAt": "2026-07-03T00:00:00.000Z",
-    "updatedAt": "2026-07-08T23:02:47.710Z",
+    "updatedAt": "2026-07-17T05:52:22.238Z",
     "publishedAt": "2026-07-03T00:00:00.000Z"
   }
 ]
